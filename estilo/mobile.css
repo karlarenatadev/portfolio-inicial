@@ -4,14 +4,11 @@
         main {
             padding: 10px;
         }
-        #burguer {
+        .burguer {
             display: block;
             text-align: center;
             padding: 10px;
             cursor: pointer;
-        }
-        #burguer:hover{
-            color: #1f2229; 
         }
        .menu {
             display: none;
