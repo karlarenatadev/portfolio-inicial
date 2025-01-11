@@ -30,6 +30,7 @@ main {
     padding: 20px;
     font-size: 20px;
 }
+
 button {
     padding: 10px 20px;
     background-color: #1F5372;
@@ -37,9 +38,6 @@ button {
     border: none;
     cursor: pointer;
     margin: 10px;
-}
-.burguer {
-    display: none;
 }
 
 section.section-home > div > img#foto-sobre {
@@ -64,7 +62,6 @@ section.section-home > div > img#foto-sobre:hover {
 #home::before {
     content: '';
     position: absolute;
-    
     top: 0;
     left: 0;
     right: 0;
@@ -92,6 +89,10 @@ nav {
     flex-flow: row wrap;
     justify-content: center;
 }
+.burguer {
+    display: none;
+}
+
 li.menu-list{
     list-style: none;
     position: relative;
