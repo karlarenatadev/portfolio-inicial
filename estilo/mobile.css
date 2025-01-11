@@ -11,7 +11,7 @@
             cursor: pointer;
         }
         #burguer:hover{
-            color: #1f2229;
+            color: #1f2229; 
         }
        .menu {
             display: none;

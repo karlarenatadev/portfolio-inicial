@@ -3,16 +3,16 @@ function scrollToSection(sectionId) {
 }
 function clickMenu() {
     if (items.style.display == 'block') {
-        items.style.display = 'none'
+        items.style.display = 'none';
     } else {
-        items.style.display = 'block'
+        items.style.display = 'block';
     }
 }
 
 function mudouTamanho() {
-    if (window.innerWidth >=768) {
-        items.style.display = 'block'
+    if (window.innerWidth >= 768) {
+        items.style.display = 'block';
     } else {
-        items.style.display = 'none'
+        items.style.display = 'none';
     }
 }
